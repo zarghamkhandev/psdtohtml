@@ -1,0 +1,350 @@
+/* Common CSS */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #333333;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+p {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.5em;
+}
+.content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Top Header Area */
+.top-header-area {
+  background-color: #a88c95;
+  padding: 18px 0;
+}
+
+.top-header-area .inner-header {
+  overflow: hidden;
+}
+
+.top-header-area .inner-header .social-area {
+  width: 50%;
+  float: left;
+}
+.top-header-area .inner-header .social-area ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.top-header-area .inner-header .social-area ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.top-header-area .inner-header .social-area ul li a {
+  background: #d2d2d2;
+  color: #6a3144;
+  width: 38px;
+  height: 27px;
+  display: block;
+  text-align: center;
+  padding-top: 11px;
+  border-radius: 50%;
+}
+.top-header-area .inner-header .social-area ul li a:hover {
+  background-color: #6a3144;
+  transition: 0.5s;
+  color: white;
+}
+
+/* search area */
+.top-header-area .inner-header .search-area {
+  float: right;
+}
+.top-header-area .inner-header .search-area form {
+  width: 300px;
+}
+
+.top-header-area .inner-header .search-area input[type="text"] {
+  background: #fff;
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 220px;
+  float: left;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  height: 35px;
+}
+.top-header-area .inner-header .search-area input[type="submit"] {
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #97455f;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 80px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  height: 35px;
+}
+.top-header-area .inner-header .search-area input[type="submit"]:hover {
+  background: #6a3144;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* logo area */
+
+.logo-area {
+  width: 220px;
+  max-width: 100%;
+  margin: 25px auto;
+  text-align: center;
+}
+
+/* main menu */
+
+.main-menu {
+  background: #97455f;
+  height: 52px;
+}
+.main-menu ul {
+  color: #fff;
+  margin: 0px auto;
+  list-style: none;
+  text-align: center;
+}
+.main-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 0px;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 10px;
+  display: block;
+}
+.main-menu ul li a:hover {
+  background-color: #6a3144;
+}
+
+.slider-area {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-area img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* WElcome area */
+
+.welcome-area {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+.welcome-area .inner-welcome {
+  overflow: hidden;
+}
+
+.welcome-area .left-welcome {
+  width: 46%;
+  float: left;
+  padding: 0 2%;
+}
+.welcome-area .left-welcome h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+.welcome-area .left-welcome p {
+  font-size: 18px;
+  text-align: justify;
+}
+.welcome-area .left-welcome a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6a3144;
+  padding: 10px;
+  display: inline-block;
+}
+.welcome-area .right-welcome {
+  width: 46%;
+  float: right;
+  padding: 0 2%;
+}
+
+.welcome-area .right-welcome img {
+  width: 100%;
+}
+
+/* Service area */
+
+.service-area {
+  background-color: #f5f5f5;
+  padding: 50px 0px;
+}
+
+.service-area .inner-service h2.title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  color: #6a3144;
+  margin: 0px;
+}
+.service-area .inner-service p.sub-title {
+  text-align: center;
+  margin: 0;
+}
+
+.service-area .main-service {
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.service-area .child-service {
+  width: 225px;
+  padding: 130px 50px 50px 105px;
+  float: left;
+  position: relative;
+}
+.service-area .child-service:hover {
+  background: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px #ddd;
+}
+.service-area .child-service h3 {
+  color: #523827;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "oswald";
+  opacity: 0.15;
+  position: absolute;
+  margin: 0px;
+  left: 60px;
+  top: 60px;
+}
+
+.service-area .child-service h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.service-area .child-service h4 a {
+  color: #6a3144;
+  text-decoration: none;
+}
+
+.service-area .child-service p {
+  color: #000000;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.contact-area {
+  background-color: #6a3144;
+  background: url("../img/contact_image.jpg");
+  padding: 50px 0;
+  width: 100%;
+}
+
+.contact-area .inner-contact {
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.contact-area .inner-contact h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-family: "oswald";
+  font-size: 36px;
+}
+
+.contact-area .inner-contact .main-contact-form {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact-area .main-contact-form input {
+  width: 440px;
+  padding: 12px 0px 12px 30px;
+  margin: 5px 5px;
+  border: 0px;
+  border-radius: 5px;
+  float: left;
+}
+
+.contact-area .main-contact-form textarea {
+  width: 100%;
+  margin: 5px;
+  border: 0;
+  border-radius: 5px 5px 5px 5px;
+  height: 150px;
+  padding: 10px 0 0 20px;
+}
+
+.contact-area .main-contact-form input[type="submit"] {
+  width: 200px;
+  background: #97455f;
+  font-weight: 600;
+  color: #fff;
+  font-size: 21px;
+  border-radius: 25px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px 10px;
+  float: none;
+  cursor: pointer;
+}
+
+/* Footer area */
+.footer-area {
+  background: #fff;
+  padding: 30px 0;
+  width: 100%;
+  overflow: hidden;
+}
+.footer-area .inner-footer {
+  overflow: hidden;
+}
+.footer-area .footer-logo {
+  width: 420px;
+  margin: 0 auto 20px;
+}
+.footer-area .copyright-area {
+  width: 100%;
+  text-align: center;
+}
+.footer-area .copyright-area p {
+  color: #6a3144;
+  margin-bottom: 0;
+}
